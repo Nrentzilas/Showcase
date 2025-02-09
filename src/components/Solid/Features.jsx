@@ -261,7 +261,7 @@ const Features = () => {
           </div>
 
           <div class="p-6 space-y-6">
-            <div class="flex justify-end space-x-2">
+            <div class="flex justify-center space-x-2">
               <button
                 onClick={defaultExample}
                 class="px-3 py-1 rounded-lg bg-gray-800 text-white hover:bg-gray-700 transition-colors"

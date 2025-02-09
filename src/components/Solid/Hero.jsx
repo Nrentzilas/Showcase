@@ -60,17 +60,17 @@ import Counter from '../components/Counter';
           </div>
 
           {/* Interactive Demo Button */}
-          <div class="bg-gray-800/50 p-6 rounded-xl space-y-4 backdrop-blur-sm relative overflow-hidden group">
+          <div class="bg-gray-800/50 px-6 py-6 rounded-xl  backdrop-blur-sm relative overflow-hidden group">
             {/* Animated background gradient */}
             <div class="absolute inset-0 bg-gradient-to-r from-[#4F87C7]/10 to-[#2B5C9B]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             
-            <h3 class="text-lg font-semibold text-gray-300 relative">Experience Solid.js in action:</h3>
+            <h3 class="text-lg font-semibold text-gray-300  relative">Experience Solid.js in action:</h3>
             <button
               onClick={() => {
                 const editor = document.querySelector('.interactive-playground');
                 editor?.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }}
-              class="relative w-full px-6 py-4 bg-gradient-to-r from-[#4F87C7] to-[#2B5C9B] text-white rounded-lg 
+              class="relative w-full px-6 py-4 mt-3 bg-gradient-to-r from-[#4F87C7] to-[#2B5C9B] text-white rounded-lg 
                      shadow-[0_0_20px_rgba(79,135,199,0.3)] hover:shadow-[0_0_30px_rgba(79,135,199,0.5)]
                      transform hover:scale-[1.02] active:scale-95 transition-all duration-200
                      flex items-center justify-center gap-3 group/btn"
