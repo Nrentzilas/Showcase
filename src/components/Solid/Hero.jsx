@@ -38,7 +38,7 @@ import Counter from '../components/Counter';
 </Layout>`;
 
   return (
-    <section class={`relative min-h-screen flex items-center justify-center p-8 transition-all duration-700 transform ${isVisible() ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+    <section class={`relative min-h-screen  flex items-center justify-center p-8 transition-all duration-700 transform ${isVisible() ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
       <div class={`container mx-auto grid md:grid-cols-2 gap-12 items-center transition-all duration-700 delay-200 transform ${isVisible() ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         {/* Left Column - Text Content */}
         <div class={`space-y-8 transition-all duration-700 delay-300 transform ${isVisible() ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
